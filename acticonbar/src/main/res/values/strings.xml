@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ActiconBar</string>
+    <string name="activity_label_show_message">show_message</string>
+    <string name="action_search">search</string>
+    <string name="action_setting">setting</string>
+</resources>
