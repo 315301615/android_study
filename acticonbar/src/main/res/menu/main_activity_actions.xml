@@ -11,4 +11,9 @@
         android:icon="@android:drawable/ic_menu_set_as"
         android:title="@string/action_setting"
         app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_open_second_activity"
+        android:icon="@android:drawable/star_on"
+        android:title="@string/main_activity_btn_second_activity"
+        app:showAsAction="never"/>
 </menu>

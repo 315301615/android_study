@@ -3,4 +3,5 @@
     <string name="activity_label_show_message">show_message</string>
     <string name="action_search">search</string>
     <string name="action_setting">setting</string>
+    <string name="main_activity_btn_second_activity">点击我,进入第二个activity</string>
 </resources>
