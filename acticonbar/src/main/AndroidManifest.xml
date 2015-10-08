@@ -20,7 +20,8 @@
         <activity android:name=".ShowMessageActivity"
             android:label="@string/activity_label_show_message"
             android:icon="@mipmap/ic_launcher"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme_0">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>

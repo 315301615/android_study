@@ -16,5 +16,4 @@
         android:icon="@android:drawable/star_on"
         android:title="@string/main_activity_btn_second_activity"
         app:showAsAction="never"/>
-    <!-- 测试提交 -->
 </menu>
