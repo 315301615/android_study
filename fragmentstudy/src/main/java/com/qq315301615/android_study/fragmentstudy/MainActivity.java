@@ -51,7 +51,11 @@ public class MainActivity extends AppCompatActivity {
         fragmentTwo = new TwoFragment();
         fragmentManager = getFragmentManager();
         fragmentTransaction = fragmentManager.beginTransaction();
-        fragmentTransaction.add(R.id.main_activity_fragment_container, fragmentOne).commit();
+        fragmentTransaction.add(R.id.main_activity_fragment_container_0, fragmentOne).commit();
+        fragmentTransaction.commit();
+        fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.add(R.id.main_activity_fragment_container_1, fragmentTwo).commit();
+        fragmentTransaction.commit();
     }
 
     private void initView() {
