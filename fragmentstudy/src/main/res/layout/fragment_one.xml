@@ -1,14 +1,16 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.qq315301615.android_study.fragmentstudy.OneFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
         android:text="@string/one_fragment_hellostring" />
     <EditText
         android:id="@+id/fragment_one_et_msg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"/>
-</FrameLayout>
+        android:padding="10dp"
+        android:hint="@string/common_edittext_hint"/>
+</LinearLayout>

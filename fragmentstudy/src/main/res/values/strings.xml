@@ -3,4 +3,5 @@
     <string name="one_fragment_hellostring">this is fragment one</string>
     <string name="two_fragment_hellostring">this is fragment two</string>
     <string name="activity_main_bt_change_fragment">切换fragment</string>
+    <string name="common_edittext_hint">请输入</string>
 </resources>
