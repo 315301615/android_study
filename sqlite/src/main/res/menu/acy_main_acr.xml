@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- add button -->
+    <item
+        android:id="@+id/acy_main_acr_button_add_diary"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/acy_main_acr_add_dirary"
+        app:showAsAction="never"/>
+    <!-- delete button -->
+    <item
+        android:id="@+id/acy_main_acr_button_delete_diary"
+        android:icon="@android:drawable/ic_menu_add"
+        android:title="@string/acy_main_acr_delete_dirary"
+        app:showAsAction="never"/>
+</menu>

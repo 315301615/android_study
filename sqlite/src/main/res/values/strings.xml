@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Sqlite</string>
+    <!-- main activity actionbar add diary button -->
+    <string name="acy_main_acr_add_dirary">新增</string>
+    <string name="acy_main_acr_delete_dirary">删除</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
