@@ -8,15 +8,14 @@ import android.view.ViewGroup;
 
 import com.qq315301615.android_study.sqlite.R;
 
-public class DiaryContentFragment extends Fragment {
+public class DiaryListFragment extends Fragment{
 
-    public static DiaryContentFragment newInstance() {
-        DiaryContentFragment fragment = new DiaryContentFragment();
+    public static DiaryListFragment newInstance() {
+        DiaryListFragment fragment = new DiaryListFragment();
         return fragment;
     }
 
-    public DiaryContentFragment() {
-        // Required empty public constructor
+    public DiaryListFragment() {
     }
 
     @Override
@@ -27,16 +26,14 @@ public class DiaryContentFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_diary_content, container, false);
+        View view = inflater.inflate(R.layout.fragment_item, container, false);
+
+        return view;
     }
-
-
 
     @Override
     public void onDetach() {
         super.onDetach();
-
     }
 
 }

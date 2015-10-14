@@ -1,22 +1,23 @@
 package com.qq315301615.android_study.sqlite.ui;
 
-import android.support.v7.app.AppCompatActivity;
+import android.net.Uri;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
 import com.qq315301615.android_study.sqlite.R;
 import com.qq315301615.android_study.sqlite.ui.fragment.DiaryContentFragment;
-import com.qq315301615.android_study.sqlite.ui.fragment.ItemFragment;
+import com.qq315301615.android_study.sqlite.ui.fragment.DiaryListFragment;
 
 /**
  * diary main page
  * has two fragment,one list one conentet
  */
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements DiaryListFragment.OnFragmentInteractionListener,DiaryContentFragment.OnFragmentInteractionListener{
     MainActivity mainActivity;
-    final ItemFragment itemFragment = new ItemFragment();
+    final DiaryListFragment itemFragment = new DiaryListFragment();
     final DiaryContentFragment diaryContentFragment = new DiaryContentFragment();
 
     @Override
@@ -48,5 +49,16 @@ public class MainActivity extends AppCompatActivity {
                 return super.onOptionsItemSelected(item);
         }
         return true;
+    }
+
+    @Override
+    public void onFragmentInteraction(String id) {
+
+    }
+
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+
+
     }
 }
