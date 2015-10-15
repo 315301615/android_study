@@ -1,1 +1,1 @@
-include ':app', ':acticonbar', ':myapplication', ':fragmentstudy', ':sqlite'
+include ':app', ':acticonbar', ':myapplication', ':fragmentstudy', ':sqlite', ':ottosample'

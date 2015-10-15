@@ -15,7 +15,7 @@ import com.qq315301615.android_study.sqlite.ui.fragment.DiaryListFragment;
  * diary main page
  * has two fragment,one list one conentet
  */
-public class MainActivity extends AppCompatActivity implements DiaryListFragment.OnFragmentInteractionListener,DiaryContentFragment.OnFragmentInteractionListener{
+public class MainActivity extends AppCompatActivity {
     MainActivity mainActivity;
     final DiaryListFragment itemFragment = new DiaryListFragment();
     final DiaryContentFragment diaryContentFragment = new DiaryContentFragment();
@@ -51,14 +51,4 @@ public class MainActivity extends AppCompatActivity implements DiaryListFragment
         return true;
     }
 
-    @Override
-    public void onFragmentInteraction(String id) {
-
-    }
-
-    @Override
-    public void onFragmentInteraction(Uri uri) {
-
-
-    }
 }
