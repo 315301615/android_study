@@ -1,14 +1,16 @@
 package com.qq315301615.android_study.sqlite.event_bus;
 
-import com.squareup.otto.Bus;
+
+import com.google.common.eventbus.EventBus;
 
 /**
  * event bus provider
  * Created by zhanglin on 15/10/15.
  */
 public class OttoEventBusProvider {
-    private static final Bus bus = new Bus();
-    public Bus getInstance(){
-        return bus;
+    static final EventBus eventBus = new EventBus();
+    public static EventBus getInstance(){
+        return eventBus;
     }
+
 }

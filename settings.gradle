@@ -1,1 +1,2 @@
 include ':app', ':acticonbar', ':myapplication', ':fragmentstudy', ':sqlite', ':ottosample'
+include ':eventBusDemo'
