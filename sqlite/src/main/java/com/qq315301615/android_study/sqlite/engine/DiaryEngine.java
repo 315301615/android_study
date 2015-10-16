@@ -1,6 +1,6 @@
 package com.qq315301615.android_study.sqlite.engine;
 
-import com.qq315301615.android_study.sqlite.bean.model.DiaryDailyName;
+import com.qq315301615.android_study.sqlite.bean.model.DiaryDailyModel;
 
 import java.util.List;
 
@@ -13,9 +13,9 @@ public class DiaryEngine {
      *
      * @return
      */
-    public List<DiaryDailyName> getAllDiaryDailyName(){
-        List<DiaryDailyName> litDiaryDailyName = null;
-        return litDiaryDailyName;
+    public List<DiaryDailyModel> getAllDiaryDailyName(){
+        List<DiaryDailyModel> litDiaryDailyModel = null;
+        return litDiaryDailyModel;
     }
 
     /**
