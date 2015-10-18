@@ -1,19 +1,27 @@
 package com.event.demo;
 
-import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
 import de.greenrobot.event.EventBus;
 
-public class MainActivity extends Activity {
+public class MainActivity extends BaseActivity {
     EventCallback eventCallback = new EventCallback();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         //注册EventBus
+        EventBus.getDefault().register(eventCallback);
+    }
+
+    public void goToSecondActivity(View view) {
+        Intent intent = new Intent();
+        intent.setClass(this, SecondActivity.class);
+        startActivity(intent);
     }
 
     // click--------------------------------------start----------------------
@@ -90,10 +98,7 @@ public class MainActivity extends Activity {
 
     //click--------------------end------------------------------
 
-    private class EventCallback{
-        public EventCallback() {
-            EventBus.getDefault().register(this);
-        }
+    private class EventCallback {
         //Event-------------------------start-------------------------------
 
         /**

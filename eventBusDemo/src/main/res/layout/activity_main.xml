@@ -4,7 +4,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity" >
-
+    <Button
+        android:id="@+id/btn_goto_second_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToSecondActivity"
+        android:text="goToSecondActivity" />
     <Button
         android:id="@+id/btnPostThread"
         android:layout_width="match_parent"
