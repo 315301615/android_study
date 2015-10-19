@@ -7,6 +7,8 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventBusDemo/eventBusDemo.iml" filepath="$PROJECT_DIR$/eventBusDemo/eventBusDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragmentstudy/fragmentstudy.iml" filepath="$PROJECT_DIR$/fragmentstudy/fragmentstudy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greendaogeneratorsample/greendaogeneratorsample.iml" filepath="$PROJECT_DIR$/greendaogeneratorsample/greendaogeneratorsample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/greendaosample/greendaosample.iml" filepath="$PROJECT_DIR$/greendaosample/greendaosample.iml" />
       <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/ottosample/ottosample.iml" filepath="$PROJECT_DIR$/ottosample/ottosample.iml" />
       <module fileurl="file://$PROJECT_DIR$/sqlite/sqlite.iml" filepath="$PROJECT_DIR$/sqlite/sqlite.iml" />

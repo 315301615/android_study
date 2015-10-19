@@ -1,2 +1,2 @@
-include ':app', ':acticonbar', ':myapplication', ':fragmentstudy', ':sqlite', ':ottosample'
+include ':app', ':acticonbar', ':myapplication', ':fragmentstudy', ':sqlite', ':ottosample', ':greendaosample', ':greendaogeneratorsample'
 include ':eventBusDemo'
