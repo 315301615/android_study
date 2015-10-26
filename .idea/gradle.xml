@@ -11,6 +11,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/acticonbar" />
+            <option value="$PROJECT_DIR$/animationsDemo" />
+            <option value="$PROJECT_DIR$/animdemozs" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/eventBusDemo" />
             <option value="$PROJECT_DIR$/fragmentstudy" />
