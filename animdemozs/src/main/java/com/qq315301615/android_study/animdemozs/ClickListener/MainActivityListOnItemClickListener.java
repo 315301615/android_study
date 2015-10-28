@@ -1,5 +1,6 @@
 package com.qq315301615.android_study.animdemozs.ClickListener;
 
+import android.content.Context;
 import android.content.Intent;
 import android.view.View;
 import android.widget.AdapterView;
@@ -16,11 +17,17 @@ public class MainActivityListOnItemClickListener implements ListView.OnItemClick
     public MainActivityListAdapter mainActivityListAdapter;
     MainActivityListItemModel mainActivityListItemModel;
     Intent intent;
+    Context context;
+
+    public MainActivityListOnItemClickListener(Context context) {
+        this.context = context;
+    }
+
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         mainActivityListItemModel = (MainActivityListItemModel) mainActivityListAdapter.getItem(position);
         intent = new Intent();
-        intent.setClass(CustomApplication.getInstance(), mainActivityListItemModel.getClass());
+        intent.setClass(context, mainActivityListItemModel.getClass());
         CustomApplication.getInstance().startActivity(intent);
     }
 }

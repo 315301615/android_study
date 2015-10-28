@@ -1,7 +1,7 @@
 package com.qq315301615.android_study.animdemozs.ui.activity;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.ListView;
 
 import com.qq315301615.android_study.animdemozs.ClickListener.MainActivityListOnItemClickListener;
@@ -20,7 +20,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         arryMainActivityListItemModel = new MainActivityListItemModel[]{
-
+                new MainActivityListItemModel(CrossfadeActivity.class, "CrossfadeActivity"),
+                new MainActivityListItemModel(CardFlipActivity.class, "CardFlipActivity"),
+                new MainActivityListItemModel(ScreenSlideActivity.class, "ScreenSlideActivity"),
+                new MainActivityListItemModel(ZoomActivity.class, "ZoomActivity"),
+                new MainActivityListItemModel(LayoutChangesActivity.class, "LayoutChangesActivity")
 
         };
         mainActivityListOnItemClickListener.mainActivityListAdapter = mainActivityListAdapter;

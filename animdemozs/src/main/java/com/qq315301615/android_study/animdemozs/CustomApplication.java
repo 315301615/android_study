@@ -8,6 +8,10 @@ import android.app.Application;
 public class CustomApplication extends Application{
     private static CustomApplication instance ;
 
+    public CustomApplication() {
+        instance = this;
+    }
+
     public static CustomApplication getInstance(){
         return instance;
     }
