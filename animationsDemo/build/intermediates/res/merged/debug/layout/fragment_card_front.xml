@@ -20,4 +20,4 @@
     android:src="@drawable/image1"
     android:scaleType="centerCrop"
     android:contentDescription="@string/description_image_1" />
-<!-- From: file:/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/res/layout/fragment_card_front.xml -->
+<!-- From: file:/F:/workspace/android/android_study/animationsDemo/src/main/res/layout/fragment_card_front.xml -->

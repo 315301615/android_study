@@ -6,8 +6,8 @@ import android.support.v7.app.AppCompatActivity;
  * Created by 123 on 2015/10/26.
  */
 public class MainActivityListItemModel {
-    String strgTitle;
-    Class<? extends AppCompatActivity> clasActivity;
+    public String strgTitle;
+    public Class<? extends AppCompatActivity> clasActivity;
 
     public MainActivityListItemModel() {
     }

@@ -27,7 +27,7 @@ public class MainActivityListOnItemClickListener implements ListView.OnItemClick
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         mainActivityListItemModel = (MainActivityListItemModel) mainActivityListAdapter.getItem(position);
         intent = new Intent();
-        intent.setClass(context, mainActivityListItemModel.getClass());
-        CustomApplication.getInstance().startActivity(intent);
+        intent.setClass(context, mainActivityListItemModel.clasActivity);
+        context.startActivity(intent);
     }
 }

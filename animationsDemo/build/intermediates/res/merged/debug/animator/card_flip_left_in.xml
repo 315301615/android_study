@@ -58,4 +58,4 @@
         android:startOffset="@integer/card_flip_time_half"
         android:duration="1" />
 </set>
-<!-- From: file:/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/res/animator/card_flip_left_in.xml -->
+<!-- From: file:/F:/workspace/android/android_study/animationsDemo/src/main/res/animator/card_flip_left_in.xml -->
