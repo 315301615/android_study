@@ -7,13 +7,16 @@
       <module fileurl="file://$PROJECT_DIR$/animationsDemo/animationsDemo.iml" filepath="$PROJECT_DIR$/animationsDemo/animationsDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/animdemozs/animdemozs.iml" filepath="$PROJECT_DIR$/animdemozs/animdemozs.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />
       <module fileurl="file://$PROJECT_DIR$/eventBusDemo/eventBusDemo.iml" filepath="$PROJECT_DIR$/eventBusDemo/eventBusDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragmentstudy/fragmentstudy.iml" filepath="$PROJECT_DIR$/fragmentstudy/fragmentstudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/greendaogeneratorsample/greendaogeneratorsample.iml" filepath="$PROJECT_DIR$/greendaogeneratorsample/greendaogeneratorsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/greendaosample/greendaosample.iml" filepath="$PROJECT_DIR$/greendaosample/greendaosample.iml" />
       <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/navigationdrawer/navigationdrawer.iml" filepath="$PROJECT_DIR$/navigationdrawer/navigationdrawer.iml" />
       <module fileurl="file://$PROJECT_DIR$/ottosample/ottosample.iml" filepath="$PROJECT_DIR$/ottosample/ottosample.iml" />
       <module fileurl="file://$PROJECT_DIR$/sqlite/sqlite.iml" filepath="$PROJECT_DIR$/sqlite/sqlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" filepath="$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" />
     </modules>
   </component>
 </project>
