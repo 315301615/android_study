@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/build/intermediates/res/merged/debug/menu/activity_screen_slide.xml",
+        "source": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/res/menu/activity_screen_slide.xml"
+    },
+    {
+        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/build/intermediates/res/merged/debug/menu/activity_layout_changes.xml",
+        "source": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/res/menu/activity_layout_changes.xml"
+    },
+    {
+        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/build/intermediates/res/merged/debug/menu/activity_crossfade.xml",
+        "source": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/res/menu/activity_crossfade.xml"
+    }
+]

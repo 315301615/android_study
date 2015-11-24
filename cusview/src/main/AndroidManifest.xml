@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zhangshuai.android_study.cusview" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".bt_0.BT0Activity" >
+        </activity>
+        <activity
+            android:name=".bt_1.BT1CusActivity"
+            android:label="@string/title_activity_bt1_cus"
+            android:theme="@style/AppTheme" >
+        </activity>
+    </application>
+
+</manifest>

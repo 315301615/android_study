@@ -13,4 +13,3 @@
         android:onClick="closeApplication"
         android:text="closeApplication" />
 </RelativeLayout>
-<!-- From: file:/Users/zhanglin/Documents/workspace/android/android_study/eventBusDemo/src/main/res/layout/activity_second.xml -->

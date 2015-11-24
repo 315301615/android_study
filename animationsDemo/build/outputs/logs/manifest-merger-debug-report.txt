@@ -7,6 +7,8 @@ ADDED from /Users/zhanglin/Documents/workspace/android/android_study/animationsD
 		INJECTED from /Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/AndroidManifest.xml
 	android:versionName
 		ADDED from /Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/AndroidManifest.xml:20:5-30
+		INJECTED from /Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/AndroidManifest.xml
+		INJECTED from /Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/AndroidManifest.xml
 	android:versionCode
 		ADDED from /Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/AndroidManifest.xml:19:5-28
 		INJECTED from /Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/AndroidManifest.xml
