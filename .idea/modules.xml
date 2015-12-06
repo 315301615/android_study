@@ -13,10 +13,12 @@
       <module fileurl="file://$PROJECT_DIR$/fragmentstudy/fragmentstudy.iml" filepath="$PROJECT_DIR$/fragmentstudy/fragmentstudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/greendaogeneratorsample/greendaogeneratorsample.iml" filepath="$PROJECT_DIR$/greendaogeneratorsample/greendaogeneratorsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/greendaosample/greendaosample.iml" filepath="$PROJECT_DIR$/greendaosample/greendaosample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listheaderfooter/listheaderfooter.iml" filepath="$PROJECT_DIR$/listheaderfooter/listheaderfooter.iml" />
       <module fileurl="file://$PROJECT_DIR$/myapplication/myapplication.iml" filepath="$PROJECT_DIR$/myapplication/myapplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/navigationdrawer/navigationdrawer.iml" filepath="$PROJECT_DIR$/navigationdrawer/navigationdrawer.iml" />
       <module fileurl="file://$PROJECT_DIR$/ottosample/ottosample.iml" filepath="$PROJECT_DIR$/ottosample/ottosample.iml" />
       <module fileurl="file://$PROJECT_DIR$/sqlite/sqlite.iml" filepath="$PROJECT_DIR$/sqlite/sqlite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/testdragviewhelper/testdragviewhelper.iml" filepath="$PROJECT_DIR$/testdragviewhelper/testdragviewhelper.iml" />
       <module fileurl="file://$PROJECT_DIR$/ultraptr/ultraptr.iml" filepath="$PROJECT_DIR$/ultraptr/ultraptr.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" filepath="$PROJECT_DIR$/viewpagerdemo/viewpagerdemo.iml" />
     </modules>
