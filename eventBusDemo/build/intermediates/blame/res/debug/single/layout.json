@@ -1,10 +1,18 @@
 [
     {
-        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/eventBusDemo/build/intermediates/res/merged/debug/layout/activity_main.xml",
-        "source": "/Users/zhanglin/Documents/workspace/android/android_study/eventBusDemo/src/main/res/layout/activity_main.xml"
+        "merged": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/eventBusDemo/build/intermediates/res/merged/debug/layout/activity_second.xml",
-        "source": "/Users/zhanglin/Documents/workspace/android/android_study/eventBusDemo/src/main/res/layout/activity_second.xml"
+        "merged": "F:\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_second.xml",
+        "source": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\layout\\activity_second.xml"
+    },
+    {
+        "merged": "F:\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\layout\\activity_second.xml",
+        "source": "F:\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\layout\\activity_second.xml"
     }
 ]

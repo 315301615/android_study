@@ -1,18 +1,34 @@
 [
     {
-        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/build/intermediates/res/merged/debug/animator/card_flip_left_in.xml",
-        "source": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/res/animator/card_flip_left_in.xml"
+        "merged": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_right_in.xml",
+        "source": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\animator\\card_flip_right_in.xml"
     },
     {
-        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/build/intermediates/res/merged/debug/animator/card_flip_right_out.xml",
-        "source": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/res/animator/card_flip_right_out.xml"
+        "merged": "F:\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_right_out.xml",
+        "source": "F:\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\animator\\card_flip_right_out.xml"
     },
     {
-        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/build/intermediates/res/merged/debug/animator/card_flip_right_in.xml",
-        "source": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/res/animator/card_flip_right_in.xml"
+        "merged": "F:\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_left_out.xml",
+        "source": "F:\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\animator\\card_flip_left_out.xml"
     },
     {
-        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/build/intermediates/res/merged/debug/animator/card_flip_left_out.xml",
-        "source": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/res/animator/card_flip_left_out.xml"
+        "merged": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_right_out.xml",
+        "source": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\animator\\card_flip_right_out.xml"
+    },
+    {
+        "merged": "F:\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_left_in.xml",
+        "source": "F:\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\animator\\card_flip_left_in.xml"
+    },
+    {
+        "merged": "F:\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_right_in.xml",
+        "source": "F:\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\animator\\card_flip_right_in.xml"
+    },
+    {
+        "merged": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_left_in.xml",
+        "source": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\animator\\card_flip_left_in.xml"
+    },
+    {
+        "merged": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\animator\\card_flip_left_out.xml",
+        "source": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\animator\\card_flip_left_out.xml"
     }
 ]

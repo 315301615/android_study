@@ -1,22 +1,42 @@
 [
     {
-        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_photo.png",
-        "source": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/res/drawable-hdpi/ic_action_photo.png"
+        "merged": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_list_remove.png",
+        "source": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\drawable-hdpi\\ic_list_remove.png"
     },
     {
-        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_list_remove.png",
-        "source": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/res/drawable-hdpi/ic_list_remove.png"
+        "merged": "F:\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_list_remove.png",
+        "source": "F:\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\drawable-hdpi\\ic_list_remove.png"
     },
     {
-        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_launcher.png",
-        "source": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/res/drawable-hdpi/ic_launcher.png"
+        "merged": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new.png",
+        "source": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\drawable-hdpi\\ic_action_new.png"
     },
     {
-        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_info.png",
-        "source": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/res/drawable-hdpi/ic_action_info.png"
+        "merged": "F:\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_photo.png",
+        "source": "F:\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\drawable-hdpi\\ic_action_photo.png"
     },
     {
-        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_new.png",
-        "source": "/Users/zhanglin/Documents/workspace/android/android_study/animationsDemo/src/main/res/drawable-hdpi/ic_action_new.png"
+        "merged": "F:\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_info.png",
+        "source": "F:\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\drawable-hdpi\\ic_action_info.png"
+    },
+    {
+        "merged": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_info.png",
+        "source": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\drawable-hdpi\\ic_action_info.png"
+    },
+    {
+        "merged": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_new.png",
+        "source": "F:\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\drawable-hdpi\\ic_action_new.png"
+    },
+    {
+        "merged": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_action_photo.png",
+        "source": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\animationsDemo\\src\\main\\res\\drawable-hdpi\\ic_action_photo.png"
     }
 ]

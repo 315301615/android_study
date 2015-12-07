@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/eventBusDemo/build/intermediates/res/merged/debug/menu/main.xml",
-        "source": "/Users/zhanglin/Documents/workspace/android/android_study/eventBusDemo/src/main/res/menu/main.xml"
+        "merged": "F:\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "F:\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\menu\\main.xml"
     }
 ]

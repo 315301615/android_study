@@ -1,6 +1,10 @@
 [
     {
-        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/eventBusDemo/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
-        "source": "/Users/zhanglin/Documents/workspace/android/android_study/eventBusDemo/src/main/res/drawable-mdpi/ic_launcher.png"
+        "merged": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "F:\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "F:\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
     }
 ]
