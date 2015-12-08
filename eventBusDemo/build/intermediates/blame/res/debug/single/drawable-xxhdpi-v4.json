@@ -1,10 +1,14 @@
 [
     {
-        "merged": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
-        "source": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/eventBusDemo/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_launcher.png",
+        "source": "/Users/zhanglin/Documents/workspace/android/android_study/eventBusDemo/src/main/res/drawable-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "F:\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
-        "source": "F:\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "/Users/zhanglin/Documents/workspace/android/android_study/F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/zhanglin/Documents/workspace/android/android_study/F:\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "/Users/zhanglin/Documents/workspace/android/android_study/F:\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     }
 ]

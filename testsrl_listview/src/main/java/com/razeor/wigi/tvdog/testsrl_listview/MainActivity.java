@@ -51,10 +51,8 @@ public class MainActivity extends AppCompatActivity {
         mLayoutInflater = LayoutInflater.from(mActivity);
         srl_test.setOnRefreshListener(new MSRLOnRefreshListener());
         LV_STATE_FLAG = LV_STATE_REFRESH_ING;
-        srl_test.setRefreshing(true);
-
-/*        initView();
-        reShowLV();*/
+       initView();
+        reShowLV();
     }
 
 
@@ -78,6 +76,14 @@ public class MainActivity extends AppCompatActivity {
                 }
                 break;
             case LV_STATE_REFRESH_ING:
+                if(!srl_test.isRefreshing()){
+                    srl_test.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            srl_test.setRefreshing(true);
+                        }
+                    });
+                }
                 runnable = new Runnable() {
                     @Override
                     public void run() {
@@ -104,7 +110,6 @@ public class MainActivity extends AppCompatActivity {
                 runnable = new Runnable() {
                     @Override
                     public void run() {
-                        srl_test.setRefreshing(false);
                         LV_STATE_FLAG = LV_STATE_NORMAL;
                         lvItemSize += 20;
                         reShowLV();
@@ -134,6 +139,20 @@ public class MainActivity extends AppCompatActivity {
         footer = mLayoutInflater.inflate(R.layout.footer, null);
         tv_lv_footer = (TextView) footer.findViewById(R.id.tv_lv_footer);
         lv_test.setAdapter(lvAdatper);
+        lv_test.setOnScrollListener(new AbsListView.OnScrollListener() {
+            @Override
+            public void onScrollStateChanged(AbsListView view, int scrollState) {
+
+            }
+
+            @Override
+            public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
+                if(firstVisibleItem+visibleItemCount == totalItemCount){
+                    LV_STATE_FLAG = LV_STATE_LOAD_ING;
+                    reShowLV();
+                }
+            }
+        });
     }
 
 
