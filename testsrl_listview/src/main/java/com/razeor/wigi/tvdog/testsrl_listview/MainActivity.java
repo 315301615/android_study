@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -57,23 +58,10 @@ public class MainActivity extends AppCompatActivity {
 
 
     private void reShowLV() {
-        lv_test.setAdapter(null);
         Runnable runnable = null;
         switch (LV_STATE_FLAG){
             case LV_STATE_NORMAL:
-                //展示header
-                if(lvItemSize<1){
-                    lv_test.removeHeaderView(header);
-                }else if(lv_test.getHeaderViewsCount()<1){
-                    lv_test.addHeaderView(header);
-                }
-                //展示列表内容
                 lvAdatper.notifyDataSetChanged();
-                //隐藏footer
-                if(lv_test.getFooterViewsCount()>0){
-                    tv_lv_footer.setText("");
-                    lv_test.removeFooterView(footer);
-                }
                 break;
             case LV_STATE_REFRESH_ING:
                 if(!srl_test.isRefreshing()){
@@ -87,10 +75,25 @@ public class MainActivity extends AppCompatActivity {
                 runnable = new Runnable() {
                     @Override
                     public void run() {
-                        srl_test.setRefreshing(false);
                         LV_STATE_FLAG = LV_STATE_NORMAL;
-                        lvItemSize = 20;
-                        reShowLV();
+                        srl_test.setRefreshing(false);
+                        lvItemSize = 3 ;
+                        if(lv_test.getHeaderViewsCount()>0){
+                            lv_test.removeHeaderView(header);
+                        }
+                        if(lv_test.getFooterViewsCount()>0){
+                            lv_test.removeFooterView(footer);
+                        }
+                        lv_test.setAdapter(null);
+                        //展示header和footer
+                        if(lvItemSize>0){
+                            lv_test.addHeaderView(header);
+                            tv_lv_footer.setText("");
+                            lv_test.addFooterView(footer);
+                        }
+                        //展示列表内容
+                        lv_test.setAdapter(lvAdatper);
+
                     }
                 };
                 break;
@@ -105,13 +108,13 @@ public class MainActivity extends AppCompatActivity {
                 };
                 break;
             case LV_STATE_LOAD_ING:
-                lv_test.addFooterView(footer);
                 tv_lv_footer.setText("正在加载更多");
+                lvAdatper.notifyDataSetChanged();
                 runnable = new Runnable() {
                     @Override
                     public void run() {
                         LV_STATE_FLAG = LV_STATE_NORMAL;
-                        lvItemSize += 20;
+                        lvItemSize += 10;
                         reShowLV();
                     }
                 };
@@ -129,16 +132,14 @@ public class MainActivity extends AppCompatActivity {
                 break;
         }
         if(runnable!=null){
-            header.postDelayed(runnable, 2000);
+            mhandler.postDelayed(runnable, 2000);
         }
-        lv_test.setAdapter(lvAdatper);
     }
 
     private void initView() {
         header = mLayoutInflater.inflate(R.layout.header, null);
         footer = mLayoutInflater.inflate(R.layout.footer, null);
         tv_lv_footer = (TextView) footer.findViewById(R.id.tv_lv_footer);
-        lv_test.setAdapter(lvAdatper);
         lv_test.setOnScrollListener(new AbsListView.OnScrollListener() {
             @Override
             public void onScrollStateChanged(AbsListView view, int scrollState) {
@@ -147,9 +148,24 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
-                if(firstVisibleItem+visibleItemCount == totalItemCount){
-                    LV_STATE_FLAG = LV_STATE_LOAD_ING;
-                    reShowLV();
+                Log.i("shuai", "firstVisibleItem="+firstVisibleItem+", visibleItemCount="+visibleItemCount+", totalItemCount="+totalItemCount);
+               if(LV_STATE_FLAG == LV_STATE_NORMAL){
+                   if(visibleItemCount==totalItemCount){
+                       tv_lv_footer.setText("点击加载更多");
+                       tv_lv_footer.setOnClickListener(new View.OnClickListener() {
+                           @Override
+                           public void onClick(View v) {
+                               LV_STATE_FLAG = LV_STATE_LOAD_ING;
+                               reShowLV();
+                           }
+                       });
+                   }else if(firstVisibleItem+visibleItemCount==totalItemCount){
+                       LV_STATE_FLAG = LV_STATE_LOAD_ING;
+                       reShowLV();
+                   }else{
+                       tv_lv_footer.setText("");
+                       tv_lv_footer.setOnClickListener(null);
+                   }
                 }
             }
         });
@@ -184,8 +200,13 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void onRefresh() {
-            LV_STATE_FLAG = LV_STATE_REFRESH_ING;
-            reShowLV();
+            //只有在没有动作的时候，才可以操作
+            if(LV_STATE_FLAG == LV_STATE_NORMAL ){
+                LV_STATE_FLAG = LV_STATE_REFRESH_ING;
+                reShowLV();
+            }else{
+                srl_test.setRefreshing(false);
+            }
         }
     }
     private void showToast(String msg){
