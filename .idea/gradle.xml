@@ -30,6 +30,30 @@
             <option value="$PROJECT_DIR$/viewpagerdemo" />
           </set>
         </option>
+        <option name="myModules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/acticonbar" />
+            <option value="$PROJECT_DIR$/animationsDemo" />
+            <option value="$PROJECT_DIR$/animdemozs" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/customview" />
+            <option value="$PROJECT_DIR$/cusview" />
+            <option value="$PROJECT_DIR$/eventBusDemo" />
+            <option value="$PROJECT_DIR$/fragmentstudy" />
+            <option value="$PROJECT_DIR$/greendaogeneratorsample" />
+            <option value="$PROJECT_DIR$/greendaosample" />
+            <option value="$PROJECT_DIR$/mvp1" />
+            <option value="$PROJECT_DIR$/myapplication" />
+            <option value="$PROJECT_DIR$/navigationdrawer" />
+            <option value="$PROJECT_DIR$/ottosample" />
+            <option value="$PROJECT_DIR$/sqlite" />
+            <option value="$PROJECT_DIR$/testdragviewhelper" />
+            <option value="$PROJECT_DIR$/testsrl_listview" />
+            <option value="$PROJECT_DIR$/ultraptr" />
+            <option value="$PROJECT_DIR$/viewpagerdemo" />
+          </set>
+        </option>
       </GradleProjectSettings>
     </option>
   </component>
