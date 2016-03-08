@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/zhanglin/Documents/workspace/android/android_study/eventBusDemo/build/intermediates/res/merged/debug/values-v11/values-v11.xml",
+        "outputFile": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\F:\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,33 +12,7 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "/Users/zhanglin/Documents/workspace/android/android_study/eventBusDemo/src/main/res/values-v11/styles.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 177,
-                        "endLine": 8,
-                        "endColumn": 12,
-                        "endOffset": 309
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/zhanglin/Documents/workspace/android/android_study/F:\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endLine": 4,
-                    "endColumn": 12,
-                    "endOffset": 187
-                },
-                "from": {
-                    "file": "/Users/zhanglin/Documents/workspace/android/android_study/F:\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\F:\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -52,7 +26,7 @@
         ]
     },
     {
-        "outputFile": "/Users/zhanglin/Documents/workspace/android/android_study/F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
+        "outputFile": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -64,7 +38,7 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "/Users/zhanglin/Documents/workspace/android/android_study/F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -72,6 +46,58 @@
                         "endLine": 8,
                         "endColumn": 12,
                         "endOffset": 309
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\F:\\Users\\zhanglin\\Documents\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 177,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 309
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "F:\\workspace\\android\\android_study\\eventBusDemo\\build\\intermediates\\res\\merged\\debug\\values-v11\\values-v11.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 4,
+                    "endColumn": 12,
+                    "endOffset": 187
+                },
+                "from": {
+                    "file": "F:\\workspace\\android\\android_study\\eventBusDemo\\src\\main\\res\\values-v11\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 182,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 316
                     }
                 }
             }
